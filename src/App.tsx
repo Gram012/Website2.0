@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Space.css";
 
-// Defining the functional component
 const App: React.FC = () => {
   // Function to generate the stars
   const generateStars = (): JSX.Element[] => {
@@ -15,19 +14,26 @@ const App: React.FC = () => {
     return stars;
   };
 
+  // State to track dropdown visibility
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  // Toggle dropdown visibility
+  const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
+
   return (
     <>
-      <div className="stars-wrapper">
+      <div className="stars-wrapper" style={{ height: "200vh", zIndex: -1 }}>
         <p
           style={{
             color: "#FFFFFF",
             textAlign: "center",
-            fontSize: "large", //?
+            fontSize: "large",
             paddingTop: "100px",
           }}
         >
           Welcome to my Website!!
         </p>
+
         {[...Array(3)].map((_, s) => (
           <svg
             key={s}
@@ -82,6 +88,24 @@ const App: React.FC = () => {
             />
           </g>
         </svg>
+      </div>
+
+      <div
+        style={{
+          backgroundColor: "#000",
+          color: "#fff",
+          padding: "50px",
+          textAlign: "center",
+          clipPath: "circle(130% at 50% 600%)",
+        }}
+      >
+        <h2>About My Website</h2>
+        <p>
+          Welcome to my personal website. This is an example of extending the
+          page with additional content. Feel free to explore and enjoy the stars
+          and comets that decorate the background!
+        </p>
+        <p>There's so much more to come!</p>
       </div>
     </>
   );
