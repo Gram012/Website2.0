@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App.tsx";
+import App from "./App";
 
 // Ensure 'root' element exists in the document
 const rootElement = document.getElementById("root") as HTMLElement;
