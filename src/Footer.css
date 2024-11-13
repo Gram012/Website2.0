@@ -20,6 +20,8 @@ footer {
 
 .footer-content {
   z-index: 1; /* Keeps text above the semicircle */
+  position: inherit;
   color: #fff;
   padding: 20px;
+  font-size: 1vw;
 }
