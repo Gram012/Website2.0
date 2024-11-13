@@ -13,6 +13,7 @@ const App: React.FC = () => {
 
   return (
     <>
+      {/* need to figure out how to contain... */}
       <Stars />
       <Welcome />
       <Footer />

@@ -22,7 +22,7 @@ const Stars: any = () => {
           position: "absolute",
           top: 0,
           bottom: 0,
-          width: "100%",
+          width: "200wh",
           height: "200vh",
           zIndex: -1,
         }}

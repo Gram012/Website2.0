@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <div className="semicircle">
-        <img src={myImage} alt="" style={{ width: "2000px", height: "auto" }} />
+        <img src={myImage} alt="" style={{ width: "100%", height: "auto" }} />
       </div>
       <div className="footer-content">
         <h2>About My Website</h2>

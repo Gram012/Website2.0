@@ -14,8 +14,7 @@ footer {
 .semicircle {
   position: absolute;
   bottom: 0; /* Positions the semicircle at the bottom */
-  left: 50%;
-  transform: translateX(-50%); /* Centers the semicircle horizontally */
+
   width: 100%; /* Full width of the viewport */
 }
 
