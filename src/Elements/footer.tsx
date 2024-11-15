@@ -1,6 +1,6 @@
 // Footer component
 import React from "react";
-import "../Footer.css"; // Import the CSS file
+import "../css/Footer.css"; // Import the CSS file
 import myImage from "../Assets/pngegg.png";
 
 const Footer: React.FC = () => {
