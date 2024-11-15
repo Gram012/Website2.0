@@ -5,12 +5,8 @@ const welcome: React.FC = () => {
     <>
       <div
         style={{
-          position: "absolute",
-          top: 0,
-          bottom: 0,
-          width: "100%",
-          height: "100%",
-          //backgroundColor: "white",
+          textAlign: "center",
+          padding: "20px",
         }}
       >
         Some Text IDK

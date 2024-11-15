@@ -1,8 +1,8 @@
 import React from "react";
 import "./Space.css";
-import Welcome from "./Features/welcome";
-import Stars from "./Features/background";
-import Footer from "./Features/footer";
+import Welcome from "./Elements/welcome";
+import Stars from "./Elements/background";
+import Footer from "./Elements/footer";
 
 const App: React.FC = () => {
   // State to track dropdown visibility
