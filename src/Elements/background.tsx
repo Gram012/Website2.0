@@ -1,5 +1,5 @@
 import React from "react";
-import "../Space.css";
+import "../css/Space.css";
 
 const Stars: any = () => {
   // Function to generate the stars

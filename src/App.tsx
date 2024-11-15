@@ -1,5 +1,5 @@
 import React from "react";
-import "./Space.css";
+import "./css/Space.css";
 import Welcome from "./Elements/welcome";
 import Stars from "./Elements/background";
 import Footer from "./Elements/footer";
