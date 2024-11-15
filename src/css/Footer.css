@@ -9,6 +9,7 @@ footer {
   flex-direction: column;
   justify-content: flex-end; /* Aligns content to the bottom */
   align-items: center; /* Centers content horizontally */
+  overflow-x: hidden;
 }
 
 .semicircle {
