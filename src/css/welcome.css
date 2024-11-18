@@ -1,6 +1,12 @@
 .welcomeText {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-
+  /* position: absolute; */
+  font-size: xx-large;
+  padding-top: 12%;
+  padding-left: 20%;
+  padding-bottom: 30%;
+  font-family: "IBM Plex Mono", monospace;
 }
+
+/* 
+Removing abs pos seems to affect other elements: I think it is shifting the png down...
+*/

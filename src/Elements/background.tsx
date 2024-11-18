@@ -16,17 +16,7 @@ const Stars: any = () => {
 
   return (
     <>
-      <div
-        className="stars-wrapper"
-        style={{
-          position: "absolute",
-          top: 0,
-          bottom: 0,
-          width: "200wh",
-          height: "200vh",
-          zIndex: -1,
-        }}
-      >
+      <div className="stars-wrapper">
         {[...Array(3)].map((_, s) => (
           <svg
             key={s}
