@@ -8,6 +8,10 @@ html {
 .page-container {
   position: relative; /* This makes it the reference point for absolutely positioned children */
   min-height: 100vh; /* Ensure it spans the full viewport height */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .semicircle {
@@ -25,4 +29,6 @@ html {
   color: #fff;
   font-size: 1.75vw;
   text-align: center;
+  /* max-width: 500px;
+  max-height: 350px; */
 }
